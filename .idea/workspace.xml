@@ -4,214 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c0506e6-3bb0-4604-a6b3-46bd55f5fe98" name="Changes" comment="">
+    <list default="true" id="1c0506e6-3bb0-4604-a6b3-46bd55f5fe98" name="Changes" comment="moved to docusaurus">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/fonts/DINNextLTPro-Bold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/fonts/DINNextLTPro-Regular.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/oxid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/reuse/note_dataloss.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_templates/#defective_layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_templates/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_templates/layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_templates/versions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conventions.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/component.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/contribution.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/licenses.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/certification/documentation.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/certification/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/certification/inter_module_compatibility.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/certification/software_quality.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/certification/software_tests.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/certification/terms_conditions_checklist.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/database_migration/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/deactivation/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/installation_setup/configuration.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/installation_setup/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/installation_setup/installation.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/installation_setup/setup.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/installation_setup/troubleshooting.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/module_dependencies.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/module_services.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/module_settings.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/composerjson/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/composerjson/module_via_composer.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/menuxml.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/amodule/author.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/amodule/blocks.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/amodule/controllers.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/amodule/description.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/amodule/email.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/amodule/events.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/amodule/extend.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/amodule/id.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/amodule/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/amodule/lang.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/amodule/settings.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/amodule/smartyPluginDirectories.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/amodule/templates.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/amodule/thumbnail.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/amodule/title.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/amodule/url.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/amodule/version.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/version20.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/version21.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/metadataphp/version_compatibility.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/skeleton/structure.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/tutorials/create_basic_module.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/tutorials/extend_shop_class.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/tutorials/frontend_mini_basket.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/tutorials/frontend_user_forms.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/tutorials/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/tutorials/module_setup.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/tutorials/multi_lang_and_shop_tables.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/tutorials/override_functionality.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/uninstall/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/using_database.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/using_namespaces_in_modules.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/module/using_twig_in_module_templates.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/project/configincphp.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/project/environment.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/project/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/project/module_configuration/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/project/module_configuration/modules_configuration.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/project/module_configuration/modules_configuration_deployment.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/project/module_configuration/modules_environment_configuration.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/project/module_configuration/modules_installation.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/project/parameters.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/project/password_hashing.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/project/twig_template_engine/extending.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/project/twig_template_engine/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/project/twig_template_engine/installation.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/project/twig_template_engine/twig_extensions.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/quality.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/theme/child_theme.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/theme/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/theme/theme_via_composer.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/theme/twig/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/theme/twig/loading-dynamic-content.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/theme/twig/twig_converter/examples.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/theme/twig/twig_converter/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/theme/twig/twig_converter/issues.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/theme/twig/twig_converter/usage.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/modules_components_themes/theme/twig_sandbox.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/console.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/controller_as_service.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/DIContainerEvents/ProjectYamlChangedEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/DIContainerEvents/ServicesYamlConfigurationErrorEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/DIContainerEvents/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/DatabaseEvents/AfterModelDeleteEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/DatabaseEvents/AfterModelInsertEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/DatabaseEvents/AfterModelUpdateEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/DatabaseEvents/BeforeModelDeleteEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/DatabaseEvents/BeforeModelUpdateEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/DatabaseEvents/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/ModuleEvents/BeforeModuleDeactivationEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/ModuleEvents/FinalizingModuleActivationEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/ModuleEvents/FinalizingModuleDeactivationEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/ModuleEvents/ModuleClassExtensionChainChangedEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/ModuleEvents/ModuleConfigurationChangedEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/ModuleEvents/SettingChangedEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/ModuleEvents/ShopConfigurationChangedEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/ModuleEvents/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/ShopGeneralEvents/AfterRequestProcessedEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/ShopGeneralEvents/AllCookiesRemovedEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/ShopGeneralEvents/ApplicationExitEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/ShopGeneralEvents/BasketChangedEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/ShopGeneralEvents/BeforeHeadersSendEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/ShopGeneralEvents/BeforeSessionStartEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/ShopGeneralEvents/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/ViewEvents/ThemeSettingChangedEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/ViewEvents/ViewRenderedEvent.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/ViewEvents/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/event_example.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/general.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/event/list.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/logging/custom_logger_implementation.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/logging/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/logging/logging.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/migrations.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/service_container.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/tell_me_about/unified_namepsace_vs_ineternal_namespace.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/testing/acceptance.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/testing/codeception/creat_own_page_objects.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/testing/codeception/example_module_test.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/testing/codeception/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/testing/codeception/introduction.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/testing/codeception/oxid_codeception_modules.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/testing/codeception/oxid_codeception_page_objects.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/testing/codeception/oxid_codeception_step_objects.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/testing/codeception/running_tests.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/testing/codeception/write_new_test.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/testing/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/testing/integration.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/development/testing/unit.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getting_started/ide/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getting_started/ide/phpstorm/codingstyle.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getting_started/ide/phpstorm/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getting_started/ide/phpstorm/tests.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getting_started/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getting_started/installation/environment_preparation.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getting_started/installation/eshop_installation.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getting_started/installation/eshop_installation_without_composer.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getting_started/installation/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getting_started/installation/troubleshooting.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/glossary.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Template_override.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons-en/home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/schritt.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/screenshots/twig_child_theme_001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/screenshots/update7001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/screenshots/update7002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/screenshots/update7003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/screenshots/update7004.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system_architecture/autoloading.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system_architecture/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system_architecture/language.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system_architecture/module_installation_activation.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system_architecture/resources/autoloading.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system_architecture/resources/autoloading.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system_architecture/resources/module_states.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system_architecture/resources/namespaces_inheritance_chain_ee.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system_architecture/resources/namespaces_inheritance_chain_ee.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system_architecture/resources/namespaces_inheritance_chain_ee_and_two_modules.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system_architecture/resources/namespaces_inheritance_chain_ee_and_two_modules.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system_architecture/resources/namespaces_inheritance_chain_pe.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system_architecture/resources/namespaces_inheritance_chain_pe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system_architecture/unified_namespace/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system_architecture/unified_namespace/unified_namespace_generator.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system_architecture/unified_namespace/unified_namespace_inheritance.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/update/examples/convertLockToComposer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/update/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/update/standard-update.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/update/upgrade/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/update/upgrade/upgrade-from-CE-to-PE.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/update/upgrade/upgrade-from-PE-to-EE.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/oxideshop/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -240,13 +56,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "b-7.3.x",
+    "git-widget-placeholder": "overhaul",
     "last_opened_file_path": "/home/michael/projects/docu20/.claude",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "web-ide.project.structure",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -271,11 +88,32 @@
       <option name="presentableId" value="Default" />
       <updated>1755850208262</updated>
       <workItem from="1755850210853" duration="25565000" />
-      <workItem from="1755891685065" duration="1812000" />
+      <workItem from="1755891685065" duration="4161000" />
+      <workItem from="1755896023021" duration="727000" />
     </task>
+    <task id="LOCAL-00001" summary="moved to docusaurus">
+      <option name="closed" value="true" />
+      <created>1755893685074</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755893685074</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/lagacy" />
+    </ignored-roots>
+    <MESSAGE value="moved to docusaurus" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved to docusaurus" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
