@@ -42,14 +42,24 @@ npm start          # Development server
 npm run build      # Production build
 npm run typecheck  # TypeScript checking
 npm run clear      # Clear cache
+npm run serve      # Serve built site locally
+npm run swizzle    # Customize Docusaurus components
+```
+
+### Testing & Validation
+```bash
+make npm-audit     # Security audit
+npm run typecheck  # TypeScript validation (must pass before commits)
 ```
 
 ## Key Configuration Files
 - `docs/docusaurus.config.ts`: Main Docusaurus configuration with OXID branding
 - `docs/sidebars.ts`: Navigation structure (developerSidebar) with 4 main sections
 - `docs/package.json`: Node.js dependencies (Docusaurus 3.8.1, React 19)
-- `docker-compose.yml`: Multi-service Docker setup
+- `docs/tsconfig.json`: TypeScript configuration
+- `docker-compose.yml`: Multi-service Docker setup (docs, plantuml, nginx services)
 - `Makefile`: Development workflow commands
+- `nginx.conf`: Production server configuration
 
 ## Content Migration Context
 - **Source**: `lagacy/` contains original Sphinx RST files
@@ -74,8 +84,22 @@ npm run clear      # Clear cache
 - PlantUML server runs on port 8080 for diagram generation
 - Multiple OXID versions (6.0-7.3) will require versioning setup
 
+## Development Workflow
+- Always run `npm run typecheck` before committing changes
+- Navigation structure is hierarchical (4-5 levels deep) - maintain consistency
+- Test changes in development server before building production
+- Use PlantUML server at localhost:8080 for diagram generation
+
 ## Special Considerations
 - Always use `docker compose` (not `docker-compose`)
 - Navigation changes require updating both `sidebars.ts` and creating corresponding markdown files
 - Legacy RST files contain complex cross-references that need careful conversion
 - PHP code highlighting is pre-configured in Docusaurus config
+- Custom OXID fonts (DINNextLTPro) are included in static assets
+- Development server auto-reloads on file changes (CHOKIDAR_USEPOLLING enabled)
+
+## Troubleshooting
+- If containers won't start: `make clean && make build && make up`
+- For permission issues: Check Docker volume mounts in docker-compose.yml
+- If TypeScript errors: Run `npm run typecheck` to see specific issues
+- For PlantUML diagrams not rendering: Ensure PlantUML server is running via `make plantuml`
