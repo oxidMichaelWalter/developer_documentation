@@ -1,0 +1,105 @@
+/**
+ * OXID eShop Developer Documentation Custom Styles
+ * Migration from Sphinx oxid.css
+ */
+
+/* Import OXID fonts */
+@font-face {
+  font-family: 'DINNextLTPro';
+  src: url('/static/fonts/DINNextLTPro-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DINNextLTPro';
+  src: url('/static/fonts/DINNextLTPro-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* You can override the default Docusaurus CSS variables here. */
+:root {
+  --ifm-color-primary: #c02124; /* OXID Red */
+  --ifm-color-primary-dark: #a61d20;
+  --ifm-color-primary-darker: #9c1b1e;
+  --ifm-color-primary-darkest: #811719;
+  --ifm-color-primary-light: #da2528;
+  --ifm-color-primary-lighter: #e42529;
+  --ifm-color-primary-lightest: #f12d31;
+  
+  /* OXID specific colors */
+  --oxid-red: #c02124; /* Main OXID Red */
+  --oxid-orange: #FF6600;
+  --oxid-gray: #666666;
+  --oxid-light-gray: #f5f5f5;
+  
+  /* Typography */
+  --ifm-font-family-base: 'DINNextLTPro', system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif;
+  --ifm-font-family-monospace: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  
+  /* Code highlighting */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #ff5a5e; /* Lighter OXID Red for dark mode */
+  --ifm-color-primary-dark: #ff4448;
+  --ifm-color-primary-darker: #ff373c;
+  --ifm-color-primary-darkest: #ff1419;
+  --ifm-color-primary-light: #ff7074;
+  --ifm-color-primary-lighter: #ff7d80;
+  --ifm-color-primary-lightest: #ffa6a8;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* OXID specific styles */
+.productname {
+  font-weight: bold;
+  color: var(--ifm-color-primary);
+}
+
+.technicalname {
+  font-family: var(--ifm-font-family-monospace);
+  background-color: var(--ifm-code-background);
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+}
+
+/* Navigation styling */
+.navbar__logo {
+  height: 2rem;
+}
+
+.navbar__title {
+  font-family: 'DINNextLTPro', sans-serif;
+  font-weight: bold;
+}
+
+/* Footer styling */
+.footer {
+  background-color: var(--oxid-gray);
+}
+
+/* Code blocks */
+.prism-code {
+  font-size: 0.875rem;
+}
+
+/* Tables */
+.table-responsive table {
+  border-collapse: collapse;
+}
+
+.table-responsive th {
+  background-color: var(--oxid-light-gray);
+  border: 1px solid var(--ifm-table-border-color);
+  padding: 0.5rem;
+}
+
+.table-responsive td {
+  border: 1px solid var(--ifm-table-border-color);
+  padding: 0.5rem;
+}

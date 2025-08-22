@@ -1,0 +1,30 @@
+# description
+
+## Description
+
+Used to display extension description in the extension detail information page. If the value is an array, the sub keys have to be a language abbreviation and the values the according translations. If this field value is a string, this text string will be displayed in all languages.
+
+## Type
+
+String or associative array
+
+## Mandatory
+
+No
+
+## Example
+
+```php
+// single language
+'description' => 'Template module.',
+
+// multiple languages
+'description' => [
+    'de' => 'Vorlagenmodul.',
+    'en' => 'Template module.',
+],
+```
+
+:::note
+If you want to use translations in your module for frontend or backend, you should place them in your module (see [module structure conventions](../../structure/language-files.md)).
+:::
